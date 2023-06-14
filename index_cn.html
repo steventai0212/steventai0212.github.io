@@ -438,17 +438,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					</div>
 				</div>
 			</section>
-			<section>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<!-- <span class="heading-meta">My Specialty</span> -->
-							<!-- <h2 class="colorlib-heading animate-box">技能</h2> -->
-							<h2>學業經歷</h2>
-						</div>
-					</div>
-				</div>			
-			</section>
+
 			<!-- <section class="colorlib-education" data-section="education">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -546,6 +536,71 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</section> -->
 
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<!-- <span class="heading-meta">Education</span> -->
+							<h2>學業經歷</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">國立臺灣科技大學 機械工程學系自動控制組 碩士學位
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									            <div class="row">
+										      		<div class="col-md-12">
+										      			<p>研究所就讀國立臺灣科技大學機械工程學系控制組，研究方向以機器視覺(Computer Vision)為主，研究領域為三維人臉重建。</p>
+														  <ul>
+															<li>成績(GPA): 3.55</li>
+															<li>畢業論文: 以殘差圖卷積網路進行三維人臉重建</li>
+														</ul>
+														<p>參與專案計畫開發</p>
+															<ul>
+																<li>顏面神經失調偵測</li>
+																<li>瑕疵檢測分類</li>
+															</ul>
+										      		</div>
+										      	</div>
+									         </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">中原大學 機械工程學系 學士學位
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+												<p>大學畢業於中原大學機械工程學系</p>
+												<p>證照</p>
+													<ul>
+														<li>AutoCAD 2D</li>
+														<li>AutoCAD 3D</li>
+													</ul>
+												<p>專題競賽: 自動化影像辨識與機械手臂與機台交互作業，並以此專題榮獲系上專題競賽組內佳作的成績</p>
+									        </div>
+									    </div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -558,8 +613,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					<div class="row">
 						<div class="col-md-12">
 				         <div class="timeline-centered">
-
-							<article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
 					            <div class="timeline-entry-inner">
 					               <!-- <div class="timeline-icon color-4">
 					                  <i class="icon-pen2"></i>
@@ -571,6 +625,23 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 								   		<div class="timeline-label" >
 					               			<h2>顏面神經失調偵測</h2>
 					                  		<p>利用深度學習模型偵測出顏面神經患者失調部位</p>
+											<!-- <a href="https://github.com/LiaoWeiHsiang/OpenPCDet" class="btn btn-primary">Github</a> -->
+										</div>
+									</div>
+					            </div>
+					         </article>
+							 <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <!-- <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div> -->
+								   <div class="col-md-6"> <!-- style="z-index:999;position: relative;"-->
+								   		<div class="icpImage"><img src="figure/defect.png" style="width:100% !important;height:100% !important;z-index:999;position: relative; "></div>
+									</div>
+									<div class="col-md-6"style="z-index:-100;position: relative;">
+								   		<div class="timeline-label" >
+					               			<h2>瑕疵偵測分類</h2>
+					                  		<p>利用深度學習模型偵測出PCB板的瑕疵以及將其分類</p>
 											<!-- <a href="https://github.com/LiaoWeiHsiang/OpenPCDet" class="btn btn-primary">Github</a> -->
 										</div>
 									</div>
